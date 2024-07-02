@@ -1,0 +1,50 @@
+
+JENKNS INSTALLATON
+------------------------------------
+ sudo su -
+
+google---> install jenkins ubuntu
+
+visit
+-----
+https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+install java 
+---------------
+https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+install jenkins
+-----------------------
+https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+Browser----->localhost:8080
+Default port number of jenkins is 8080
+
+cat <paste the path of admin for password>
+
+paste the password to jenkins UI
+
+click on select suggested plugins to install
+
+Integration of github with jenkins
+-----------------------------------------------
+jenkins---->manage jenkins----->tools---->git installations
+provide the git path
+# which git 
+paste the path of git
+
+Apply---->save
+
+To uninstall the jenkins from Ubuntu
+--------------------------------------------------
+sudo apt-get remove --purge jenkins
+
+
+
+
+
+
+ 
+ 
+
+

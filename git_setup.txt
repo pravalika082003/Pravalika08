@@ -1,0 +1,29 @@
+sudo su -
+
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+git init
+
+create any file
+Eg: nano hello.txt
+
+git add . 
+. for all files to add
+[or]
+git add <filer name(s)>
+
+git commit -m " some meaning message about commit"
+
+Goto github account--->settings--->developer settings--->tokens--->tokens
+copy that token securely
+
+git remote set-url origin https://<paste the token>@github.com/<username of your account>/<repo name>
+git push origin master/main
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2nd method to push the files
+--------------------------------------------------
+root user-->ssh-keygen--->copy .pub key---->github acount settings---> SSH and GPG keys---> SSH keys--->create new SSh keys
+git remote add origin <repo url>
+
+git push origin master/main
